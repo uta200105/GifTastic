@@ -1,0 +1,40 @@
+body {
+    background-image: url("./images/coffee-background.jpg");
+    background-size: 100%;
+   
+ }
+
+ .main {
+
+    width: 560px;
+    height: 325px;
+    margin-left: 280px;
+ }
+
+ #header {
+
+    margin-top: 10px;
+    height: 100px;
+    color: gainsboro;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#form {
+
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    color: gainsboro;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+
+h4 {
+
+    color: gainsboro;
+
+}
