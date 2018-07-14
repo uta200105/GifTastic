@@ -3,7 +3,7 @@
 
       // data
       function renderButtons() {
-        $("#movies-view").empty();
+        $("#view").empty();
 
         for (var i = 0; i < cartoons.length; i++) {
           var a = $("<button>");
@@ -24,3 +24,19 @@
       });
 
       renderButtons();
+
+      function getGifs()
+      {
+      var user = $("#input").val();
+      var searchURL = "https://api.giphy.com/v1/gifs/search?api_key=I8eaYN8theLHpvdhSYjyNBCIjVm6faDv&q=" + user + "&limit=10&offset=0&rating=G&lang=en"
+
+      $.ajax({
+        url: searchURL,
+        method: "GET"
+    }).then(function (response) 
+    {
+        console.log(response);
+        console.log(user);
+    })
+    }
+    $("#input").on("click", getGifs);
