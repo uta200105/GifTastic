@@ -20,21 +20,30 @@ body {
     text-align: center;
 }
 
-#form {
+.form-control {
 
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    text-align: center;
-    color: gainsboro;
-    font-size: 15px;
-    font-weight: bold;
+    margin-left: 500px;
+   
    
 }
 
 h4 {
 
-    color: gainsboro;
+    color: red;
+    
+
+}
+
+
+#newgif {
+
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.cartoon-art {
+
+    width: 425px;
+    height: 300px;
 
 }
